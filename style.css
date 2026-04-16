@@ -34,3 +34,9 @@ p {
   max-width: 600px;
   margin: 20px auto;
 }
+
+body {
+  font-family: Arial;
+  text-align: center;
+  background-color: rgb(255, 224, 188);
+}
