@@ -39,6 +39,7 @@ ul {
 p {
   max-width: 600px;
   margin: 20px auto;
+  color: rgb(102, 58, 30);
 }
 
 body {
@@ -68,6 +69,7 @@ body {
 h1 {
   font-family: "Trebuchet MS", Arial, sans-serif;
   margin-top: 20px;
+  color: rgb(102, 58, 30);
 }
 
 .contact-box {
