@@ -15,8 +15,10 @@ body {
 }
 
 nav {
-  background: black;
-  padding: 10px;
+  background: rgb(175, 112, 69);
+  border-radius: 8px;
+  padding: 10px 10px;
+  display: inline-block;
 }
 
 nav a {
