@@ -12,6 +12,7 @@ body {
 .projects img {
   width: 150px;
   margin: 10px;
+  border-radius: 8px;
 }
 
 nav {
@@ -23,7 +24,7 @@ nav {
 
 nav a {
   color: white;
-  margin: 10px;
+  margin: 0 15px;
   text-decoration: none;
   font-weight: bold;
 }
@@ -31,6 +32,8 @@ nav a {
 ul {
   list-style-type: none;
   padding: 0;
+  max-width: 600px;
+  margin: 20px auto;
 }
 
 p {
@@ -50,4 +53,52 @@ body {
   border-radius: 20px;
   margin: 20px auto;
   display: block;
+}
+
+.profile-box {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+h1 {
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  margin-top: 20px;
+}
+
+.contact-box {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.contact-box input,
+.contact-box textarea {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.contact-box button {
+  background: rgb(175, 112, 69);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.contact-box button:hover {
+  background: rgb(150, 90, 50);
 }
