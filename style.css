@@ -24,3 +24,8 @@ nav a {
   margin: 10px;
   text-decoration: none;
 }
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
