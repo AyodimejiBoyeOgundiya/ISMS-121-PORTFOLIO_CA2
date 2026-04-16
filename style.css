@@ -9,3 +9,18 @@ body {
   justify-content: center;
 }
 
+.projects img {
+  width: 150px;
+  margin: 10px;
+}
+
+nav {
+  background: black;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
