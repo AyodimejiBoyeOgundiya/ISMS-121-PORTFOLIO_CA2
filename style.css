@@ -2,3 +2,10 @@ body {
   font-family: Arial;
   text-align: center;
 }
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
